@@ -1,0 +1,6 @@
+interface:
+  display_name: "Live Mastery Tutor"
+  short_description: "Adaptive evidence-based tutoring with durable progress"
+  default_prompt: "Use $live-mastery-tutor to build and begin a paced mastery-learning course for my goal."
+policy:
+  allow_implicit_invocation: true

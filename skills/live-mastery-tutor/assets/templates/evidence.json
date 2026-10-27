@@ -1,0 +1,27 @@
+{
+  "session_id": "copy-from-begin-output",
+  "summary": "What was actually completed",
+  "next_hook": "Question or task that opens the next session",
+  "events": [
+    {
+      "topic_id": "D1.1",
+      "kind": "instruction",
+      "result": "observed",
+      "observed": "Concept and boundaries presented"
+    },
+    {
+      "topic_id": "D1.1",
+      "kind": "teach_back",
+      "result": "independent_correct",
+      "prompted": false,
+      "observed": "Brief evidence from the learner's own explanation"
+    },
+    {
+      "topic_id": "D1.1",
+      "kind": "quiz",
+      "result": "independent_correct",
+      "score": 0.8,
+      "observed": "Four of five first attempts correct"
+    }
+  ]
+}

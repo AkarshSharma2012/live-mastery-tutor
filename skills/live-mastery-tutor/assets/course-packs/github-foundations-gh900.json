@@ -1,0 +1,122 @@
+{
+  "id": "github-foundations-gh900",
+  "title": "GitHub Foundations (GH-900)",
+  "version": "2026-01-blueprint",
+  "verified_on": "2026-10-27",
+  "default_goal": "Pass GH-900 and independently use foundational GitHub workflows",
+  "mastery_threshold": 0.8,
+  "practice_exam_requirement": {
+    "minimum_score": 0.85,
+    "consecutive_forms": 3,
+    "domain_floor": 0.8
+  },
+  "sources": [
+    {
+      "title": "Study guide for Exam GH-900: GitHub Foundations",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900",
+      "kind": "official blueprint"
+    },
+    {
+      "title": "GitHub Foundations Part 1 of 2",
+      "url": "https://learn.microsoft.com/en-us/training/paths/github-foundations/",
+      "kind": "official training"
+    },
+    {
+      "title": "GitHub Foundations Part 2 of 2",
+      "url": "https://learn.microsoft.com/en-us/training/paths/github-foundations-2/",
+      "kind": "official training"
+    },
+    {
+      "title": "GitHub Docs",
+      "url": "https://docs.github.com/",
+      "kind": "official documentation"
+    }
+  ],
+  "domains": [
+    {
+      "id": "GF1",
+      "title": "Understand Git and GitHub basics",
+      "weight": "25-30%",
+      "objectives": [
+        {"id": "GF1.1", "outcome": "Describe the purpose and benefits of version control", "hands_on": false, "confusable_with": []},
+        {"id": "GF1.2", "outcome": "Explain the difference between Git and GitHub", "hands_on": false, "confusable_with": ["GF1.1"]},
+        {"id": "GF1.3", "outcome": "Identify repositories, commits, and branches and explain their relationships", "hands_on": true, "confusable_with": ["GF7.6"]},
+        {"id": "GF1.4", "outcome": "Describe GitHub accounts, organizations, and enterprise options", "hands_on": false, "confusable_with": ["GF6.5"]},
+        {"id": "GF1.5", "outcome": "Explain and apply GitHub Flow", "hands_on": true, "confusable_with": ["GF7.6"]},
+        {"id": "GF1.6", "outcome": "Use Markdown for clear communication in issues and pull requests", "hands_on": true, "confusable_with": []},
+        {"id": "GF1.7", "outcome": "Recognize appropriate uses for GitHub Desktop and GitHub Mobile", "hands_on": false, "confusable_with": ["GF4.5"]}
+      ]
+    },
+    {
+      "id": "GF2",
+      "title": "Work with GitHub repositories",
+      "weight": "10-15%",
+      "objectives": [
+        {"id": "GF2.1", "outcome": "Describe README, LICENSE, CONTRIBUTING, CODEOWNERS, and SECURITY files", "hands_on": true, "confusable_with": []},
+        {"id": "GF2.2", "outcome": "Create, organize, and maintain repositories with templates and branches", "hands_on": true, "confusable_with": ["GF7.6"]},
+        {"id": "GF2.3", "outcome": "Add and manage files in a repository", "hands_on": true, "confusable_with": []},
+        {"id": "GF2.4", "outcome": "Describe repository insights, stars, feature previews, metrics dashboards, and dependency insights", "hands_on": false, "confusable_with": ["GF5.4"]},
+        {"id": "GF2.5", "outcome": "Recognize repository maintenance and collaboration best practices", "hands_on": true, "confusable_with": []}
+      ]
+    },
+    {
+      "id": "GF3",
+      "title": "Collaborate using GitHub",
+      "weight": "10-15%",
+      "objectives": [
+        {"id": "GF3.1", "outcome": "Use issues, pull requests, and discussions for the right collaboration purpose", "hands_on": true, "confusable_with": ["GF3.2"]},
+        {"id": "GF3.2", "outcome": "Link pull requests to issues and manage templates, filters, and assignments", "hands_on": true, "confusable_with": ["GF3.1"]},
+        {"id": "GF3.3", "outcome": "Configure notifications for workflow management", "hands_on": true, "confusable_with": []},
+        {"id": "GF3.4", "outcome": "Choose and use Gists, Wikis, and GitHub Pages for documentation and sharing", "hands_on": true, "confusable_with": []}
+      ]
+    },
+    {
+      "id": "GF4",
+      "title": "Apply modern development practices",
+      "weight": "10-15%",
+      "objectives": [
+        {"id": "GF4.1", "outcome": "Describe the purpose and capabilities of GitHub Actions", "hands_on": true, "confusable_with": []},
+        {"id": "GF4.2", "outcome": "Identify GitHub Copilot code suggestions, agents, Agent Mode, and multi-model capabilities", "hands_on": false, "confusable_with": ["GF4.3"]},
+        {"id": "GF4.3", "outcome": "Distinguish GitHub Copilot Individual, Business, and Enterprise offerings", "hands_on": false, "confusable_with": ["GF4.2"]},
+        {"id": "GF4.4", "outcome": "Describe Codespaces setup, customization, and dev containers", "hands_on": true, "confusable_with": ["GF4.5"]},
+        {"id": "GF4.5", "outcome": "Distinguish github.dev from Codespaces and choose between them", "hands_on": true, "confusable_with": ["GF4.4", "GF1.7"]}
+      ]
+    },
+    {
+      "id": "GF5",
+      "title": "Manage projects with GitHub",
+      "weight": "5-10%",
+      "objectives": [
+        {"id": "GF5.1", "outcome": "Describe GitHub Projects and layout options", "hands_on": true, "confusable_with": []},
+        {"id": "GF5.2", "outcome": "Configure projects, labels, milestones, and workflows", "hands_on": true, "confusable_with": ["GF3.2"]},
+        {"id": "GF5.3", "outcome": "Use saved replies and assignees to streamline communication", "hands_on": true, "confusable_with": []},
+        {"id": "GF5.4", "outcome": "Use project insights to track progress and productivity", "hands_on": true, "confusable_with": ["GF2.4"]}
+      ]
+    },
+    {
+      "id": "GF6",
+      "title": "Understand privacy, security, and administration",
+      "weight": "10-15%",
+      "objectives": [
+        {"id": "GF6.1", "outcome": "Secure accounts with two-factor authentication and passkeys", "hands_on": false, "confusable_with": []},
+        {"id": "GF6.2", "outcome": "Identify repository and organization access permissions and roles", "hands_on": false, "confusable_with": ["GF6.5"]},
+        {"id": "GF6.3", "outcome": "Explain Enterprise Managed Users and organization-wide Copilot policy management", "hands_on": false, "confusable_with": ["GF1.4"]},
+        {"id": "GF6.4", "outcome": "Describe visibility settings and branch protection rules", "hands_on": true, "confusable_with": ["GF2.2"]},
+        {"id": "GF6.5", "outcome": "Recognize organization settings, teams, and roles", "hands_on": false, "confusable_with": ["GF6.2", "GF1.4"]}
+      ]
+    },
+    {
+      "id": "GF7",
+      "title": "Explore the GitHub community",
+      "weight": "5-10%",
+      "objectives": [
+        {"id": "GF7.1", "outcome": "Describe open-source benefits and GitHub Sponsors", "hands_on": false, "confusable_with": []},
+        {"id": "GF7.2", "outcome": "Explain how GitHub supports and advances open-source projects", "hands_on": false, "confusable_with": []},
+        {"id": "GF7.3", "outcome": "Follow users and organizations to track activity", "hands_on": true, "confusable_with": []},
+        {"id": "GF7.4", "outcome": "Describe GitHub Marketplace and its purpose", "hands_on": false, "confusable_with": []},
+        {"id": "GF7.5", "outcome": "Explain InnerSource within organizations", "hands_on": false, "confusable_with": ["GF7.1"]},
+        {"id": "GF7.6", "outcome": "Choose forks, templates, and discoverable repositories appropriately", "hands_on": true, "confusable_with": ["GF1.3", "GF2.2"]}
+      ]
+    }
+  ]
+}

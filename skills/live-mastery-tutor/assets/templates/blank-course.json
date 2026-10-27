@@ -1,0 +1,24 @@
+{
+  "id": "replace-with-stable-course-id",
+  "title": "Course title",
+  "version": "1",
+  "verified_on": "YYYY-MM-DD",
+  "default_goal": "Observable learner outcome",
+  "mastery_threshold": 0.8,
+  "sources": [],
+  "domains": [
+    {
+      "id": "D1",
+      "title": "First domain",
+      "weight": "",
+      "objectives": [
+        {
+          "id": "D1.1",
+          "outcome": "Explain or perform an observable skill",
+          "hands_on": false,
+          "confusable_with": []
+        }
+      ]
+    }
+  ]
+}
